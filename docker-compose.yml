@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+         sillytavern:
+                build: ./ai/SillyTavern
+                ports:
+                        - "65534:666"
+                command: sudo /app/start.sh
+
+
+
+
+
