@@ -15,6 +15,10 @@ class User(db.Model):
     email = db.Column(db.String(100), unique=True, nullable=False)
     password = db.Column(db.String(60), nullable=False)
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
@@ -46,7 +50,6 @@ def signin():
 @app.route('/dashboard')
 def dashboard():
     if 'user_id' in session:
-        # Render dashboard template
         return render_template('dashboard.html')
     else:
         return redirect(url_for('signin'))
