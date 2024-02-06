@@ -119,7 +119,7 @@
         "markdown_escape_strings": "",
         "chat_truncation": 100,
         "streaming_fps": 30,
-        "ui_mode": 1,
+        "ui_mode": 0,
         "fast_ui_mode": true,
         "avatar_style": 0,
         "chat_display": 0,
@@ -229,13 +229,7 @@
         "custom_stopping_strings_macro": true,
         "fuzzy_search": true,
         "encode_tags": false,
-        "servers": [
-            {
-                "label": "kobold",
-                "url": "http://127.0.0.1:5000/api",
-                "lastConnection": 1707214190603
-            }
-        ],
+        "servers": [],
         "bogus_folders": false,
         "aux_field": "character_version",
         "restore_user_input": true,
@@ -248,7 +242,7 @@
     "extension_settings": {
         "apiUrl": "https://guardian-align-horse-ambassador.trycloudflare.com",
         "apiKey": "",
-        "autoConnect": true,
+        "autoConnect": false,
         "notifyUpdates": false,
         "disabledExtensions": [],
         "expressionOverrides": [],
@@ -322,20 +316,8 @@
             "currentProvider": "System",
             "auto_generation": true,
             "ElevenLabs": {},
-            "System": {
-                "voiceMap": {
-                    "[Default Voice]": "disabled",
-                    "Ken": "[Default Voice]",
-                    "Seraphina": "Microsoft Aria Online (Natural) - English (United States)",
-                    "Flux the Cat": "[Default Voice]"
-                },
-                "rate": 1,
-                "pitch": 1
-            },
-            "narrate_user": false,
-            "enabled": true,
-            "skip_codeblocks": true,
-            "narrate_quoted_only": true
+            "System": {},
+            "narrate_user": false
         },
         "sd": {
             "scale_min": 1,
@@ -421,8 +403,8 @@
         "translate": {
             "target_language": "ko",
             "internal_language": "en",
-            "provider": "google",
-            "auto_mode": "none"
+            "provider": "bing",
+            "auto_mode": "both"
         },
         "objective": {
             "customPrompts": {
@@ -470,13 +452,12 @@
             "enabled": false
         },
         "speech_recognition": {
-            "currentProvider": "Browser",
+            "currentProvider": "None",
             "messageMode": "append",
             "messageMappingText": "",
             "messageMapping": [],
             "messageMappingEnabled": false,
-            "None": {},
-            "Browser": {}
+            "None": {}
         },
         "rvc": {
             "enabled": false,
@@ -695,11 +676,11 @@
         "repetition_penalty_frequency": 0,
         "repetition_penalty_presence": 0.005,
         "tail_free_sampling": 0.975,
-        "top_k": "10",
-        "top_p": "0.750",
-        "top_a": "0.080",
-        "typical_p": "0.975",
-        "min_length": "1",
+        "top_k": 10,
+        "top_p": 0.75,
+        "top_a": 0.08,
+        "typical_p": 0.975,
+        "min_length": 1,
         "model_novel": "clio-v1",
         "preset_settings_novel": "Talker-Chat-Clio",
         "streaming_novel": true,
@@ -714,10 +695,7 @@
             3,
             4
         ],
-        "logit_bias": [],
-        "cfg_scale": "2.00",
-        "mirostat_lr": "0.50",
-        "mirostat_tau": "3.00"
+        "logit_bias": []
     },
     "kai_settings": {
         "temp": 1.5,
@@ -749,7 +727,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Default",
-        "temp_openai": 0.85,
+        "temp_openai": 0.9,
         "freq_pen_openai": 0.7,
         "pres_pen_openai": 0.7,
         "count_pen": 0,
@@ -758,8 +736,8 @@
         "min_p_openai": 0,
         "top_a_openai": 1,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
-        "openai_max_context": 24000,
+        "stream_openai": true,
+        "openai_max_context": 4095,
         "openai_max_tokens": 300,
         "wrap_in_quotes": false,
         "names_in_completion": false,
@@ -996,7 +974,7 @@
         "openrouter_sort_models": "alphabetically",
         "jailbreak_system": false,
         "reverse_proxy": "",
-        "chat_completion_source": "makersuite",
+        "chat_completion_source": "custom",
         "max_context_unlocked": false,
         "api_url_scale": "",
         "show_external_models": false,

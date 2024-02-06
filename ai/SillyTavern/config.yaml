@@ -7,6 +7,7 @@ port: 666
 whitelistMode: true
 # Whitelist of allowed IP addresses
 whitelist:
+  - 172.17.0.*
   - 127.0.0.1
   - 192.168.0.*
 # Toggle basic authentication for endpoints

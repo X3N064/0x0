@@ -521,3 +521,604 @@ FetchError: request to http://222.99.102.167:11434/models failed, reason: connec
   errno: 'ETIMEDOUT',
   code: 'ETIMEDOUT'
 }
+Error: ENOENT: no such file or directory, stat '/home/x3n064/0x0/ai.0x0.kr/SillyTavern/public/index.html'
+Error: ENOENT: no such file or directory, stat '/home/x3n064/0x0/ai.0x0.kr/SillyTavern/public/index.html'
+Error: ENOENT: no such file or directory, stat '/home/x3n064/0x0/ai.0x0.kr/SillyTavern/public/index.html'
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 746ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+SillyTavern 1.11.3 'main' (a662203)
+Launching...
+[32mSillyTavern is listening on: http://0.0.0.0:666/[39m
+
+0.0.0.0 means SillyTavern is listening on all network interfaces (Wi-Fi, LAN, localhost). If you want to limit it only to internal localhost (127.0.0.1), change the setting in config.yaml to "listen: false". Check "access.log" file in the SillyTavern directory if you want to inspect incoming connections.
+
+[33mNew connection from 127.0.0.1; User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
+[39m
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+FetchError: request to http://222.99.102.167:11434/models failed, reason: connect ETIMEDOUT 222.99.102.167:11434
+    at ClientRequest.<anonymous> (/home/x3n064/0x0/ai/SillyTavern/node_modules/node-fetch/lib/index.js:1505:11)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+FetchError: request to http://222.99.102.167:11434/models failed, reason: connect ETIMEDOUT 222.99.102.167:11434
+    at ClientRequest.<anonymous> (/home/x3n064/0x0/ai/SillyTavern/node_modules/node-fetch/lib/index.js:1505:11)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+FetchError: request to http://222.99.102.167:11434/models failed, reason: connect ETIMEDOUT 222.99.102.167:11434
+    at ClientRequest.<anonymous> (/home/x3n064/0x0/ai/SillyTavern/node_modules/node-fetch/lib/index.js:1505:11)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+MakerSuite request: {
+  contents: [ { parts: [Array], role: 'user' } ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+MakerSuite response: Hello! How can I assist you today?
+Initializing transformers.js pipeline for task text-classification with model Cohee/distilbert-base-uncased-go-emotions-onnx
+Instantiated the tokenizer for gpt-3.5-turbo
+Classify input: Seraphina's amber eyes soften with concern as you recall the attack. Her gentle hands, cool yet comforting, rest upon your arm, her healing magic easing your aches and pains. You have no reason to apologize, Ken. You find yourself feeling more relaxed than you can remember, the tension of the day's events melting away under her gentle touch.
+
+You are welcome to stay as long as you need, here in my glade. My home is your home
+Classify output: [
+  { label: 'caring', score: 0.2605746388435364 },
+  { label: 'relief', score: 0.09456830471754074 },
+  { label: 'nervousness', score: 0.0601377934217453 },
+  { label: 'realization', score: 0.05925988405942917 },
+  { label: 'approval', score: 0.050977252423763275 }
+]
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+Classify input: ...
+Classify output: [
+  { label: 'realization', score: 0.09166428446769714 },
+  { label: 'confusion', score: 0.0630534440279007 },
+  { label: 'curiosity', score: 0.0503775030374527 },
+  { label: 'embarrassment', score: 0.048649854958057404 },
+  { label: 'annoyance', score: 0.044929224997758865 }
+]
+FetchError: request to http://222.99.102.167:11434/models failed, reason: connect ETIMEDOUT 222.99.102.167:11434
+    at ClientRequest.<anonymous> (/home/x3n064/0x0/ai/SillyTavern/node_modules/node-fetch/lib/index.js:1505:11)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+Input text: ...
+Translated text: ...
+Classify input: You wake with a start, recalling the events that led you deep into the forest and the beasts that assailed you. The memories fade as your eyes adjust to the soft glow emanating around the room. Ah, you're awake at last. I hope the tea helps restore your strength. Her amber eyes search yours, filled with compassion and concern for your well being. Please, rest. You're safe here. I'll look after you, but you need to rest. My magic can only do so much to heal you.
+Classify output: [
+  { label: 'caring', score: 0.24549253284931183 },
+  { label: 'approval', score: 0.0759093165397644 },
+  { label: 'realization', score: 0.0673026368021965 },
+  { label: 'sadness', score: 0.06258878111839294 },
+  { label: 'remorse', score: 0.05978846549987793 }
+]
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+Classify input: You wake with a start, recalling the events that led you deep into the forest and the beasts that assailed you. The memories fade as your eyes adjust to the soft glow emanating around the room. Ah, you're awake at last. I hope the tea helps restore your strength. Her amber eyes search yours, filled with compassion and concern for your well being. Please, rest. You're safe here. I'll look after you, but you need to rest. My magic can only do so much to heal you.
+Classify output: [
+  { label: 'caring', score: 0.24549253284931183 },
+  { label: 'approval', score: 0.0759093165397644 },
+  { label: 'realization', score: 0.0673026368021965 },
+  { label: 'sadness', score: 0.06258878111839294 },
+  { label: 'remorse', score: 0.05978846549987793 }
+]
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+Classify input: ...
+Classify output: [
+  { label: 'realization', score: 0.09166428446769714 },
+  { label: 'confusion', score: 0.0630534440279007 },
+  { label: 'curiosity', score: 0.0503775030374527 },
+  { label: 'embarrassment', score: 0.048649854958057404 },
+  { label: 'annoyance', score: 0.044929224997758865 }
+]
+MakerSuite request: {
+  contents: [ { parts: [Array], role: 'user' } ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+MakerSuite response: Hello! How can I assist you today?
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+Classify input: You wake with a start, recalling the events that led you deep into the forest and the beasts that assailed you. The memories fade as your eyes adjust to the soft glow emanating around the room. Ah, you're awake at last. I hope the tea helps restore your strength. Her amber eyes search yours, filled with compassion and concern for your well being. Please, rest. You're safe here. I'll look after you, but you need to rest. My magic can only do so much to heal you.
+Classify output: [
+  { label: 'caring', score: 0.24549253284931183 },
+  { label: 'approval', score: 0.0759093165397644 },
+  { label: 'realization', score: 0.0673026368021965 },
+  { label: 'sadness', score: 0.06258878111839294 },
+  { label: 'remorse', score: 0.05978846549987793 }
+]
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+Classify input: ...
+Classify output: [
+  { label: 'realization', score: 0.09166428446769714 },
+  { label: 'confusion', score: 0.0630534440279007 },
+  { label: 'curiosity', score: 0.0503775030374527 },
+  { label: 'embarrassment', score: 0.048649854958057404 },
+  { label: 'annoyance', score: 0.044929224997758865 }
+]
+Classify input: One day you got yourself a cat since it is getting lonely staying alone in a somewhat medium sized luxury apartment. The cat seems to be wary of you and seems to be always on its guard and won't approach you. As the morning rises, you see the cat riding the Roomba which has a smart protocol to do cleaning at specific times.
+Classify output: [
+  { label: 'caring', score: 0.09650315344333649 },
+  { label: 'nervousness', score: 0.0929998829960823 },
+  { label: 'approval', score: 0.09006303548812866 },
+  { label: 'realization', score: 0.07879309356212616 },
+  { label: 'desire', score: 0.0590793713927269 }
+]
+Classify input: You wake with a start, recalling the events that led you deep into the forest and the beasts that assailed you. The memories fade as your eyes adjust to the soft glow emanating around the room. Ah, you're awake at last. I hope the tea helps restore your strength. Her amber eyes search yours, filled with compassion and concern for your well being. Please, rest. You're safe here. I'll look after you, but you need to rest. My magic can only do so much to heal you.
+Classify output: [
+  { label: 'caring', score: 0.24549253284931183 },
+  { label: 'approval', score: 0.0759093165397644 },
+  { label: 'realization', score: 0.0673026368021965 },
+  { label: 'sadness', score: 0.06258878111839294 },
+  { label: 'remorse', score: 0.05978846549987793 }
+]
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.9,
+    topP: 1,
+    topK: undefined
+  }
+}
+Streaming request finished
+Classify input: ...
+Classify output: [
+  { label: 'realization', score: 0.09166428446769714 },
+  { label: 'confusion', score: 0.0630534440279007 },
+  { label: 'curiosity', score: 0.0503775030374527 },
+  { label: 'embarrassment', score: 0.048649854958057404 },
+  { label: 'annoyance', score: 0.044929224997758865 }
+]
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.85,
+    topP: 1,
+    topK: undefined
+  }
+}
+MakerSuite response: *Seraphina's eyes widen in surprise as she hears your voice, a soft gasp escaping her lips. Her grip on your hands tightens slightly, and her gaze intensifies, examining your face as if searching for answers.*
+
+"Hello? Yes, I can hear you! Oh, this is truly a wonder. I wasn't sure if you'd ever regain consciousness." *A warm smile spreads across her face, her eyes sparkling with joy and relief. She leans in closer, her voice dropping to a hushed whisper.* "Can you speak? Can you understand me?"
+
+*Seraphina's touch is gentle and reassuring, and her presence fills the room with a sense of peace and tranquility. Her concern for your well-being is evident in every word and action, and her eyes never leave yours, as if she's afraid that you might vanish if she looks away.*
+Classify input: Seraphina's eyes widen in surprise as she hears your voice, a soft gasp escaping her lips. Her grip on your hands tightens slightly, and her gaze intensifies, examining your face as if searching for answers.
+
+Hello? Yes, I can hear you! Her concern for your well-being is evident in every word and action, and her eyes never leave yours, as if she's afraid that you might vanish if she looks away.
+Classify output: [
+  { label: 'nervousness', score: 0.20730458199977875 },
+  { label: 'fear', score: 0.13595996797084808 },
+  { label: 'surprise', score: 0.13416054844856262 },
+  { label: 'caring', score: 0.06723614782094955 },
+  { label: 'remorse', score: 0.04943569749593735 }
+]
+MakerSuite request: {
+  contents: [
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' },
+    { parts: [Array], role: 'model' },
+    { parts: [Array], role: 'user' }
+  ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.85,
+    topP: 1,
+    topK: undefined
+  }
+}
+MakerSuite response: "I am well, thank you for asking." *Seraphina's smile widens, her eyes sparkling with genuine care and concern.* "Though I must admit, I was worried sick about you. When I found you, you were so badly injured... I feared the worst."
+
+*She gently squeezes your hand, her touch light but steady.* "But now, seeing you awake and speaking, I feel an immense sense of relief. It is truly a miracle."
+
+*Seraphina pauses for a moment, her gaze lingering on your face. Her eyes seem to see right through you, as if she's trying to understand the depths of your soul.* "Tell me, how are you feeling? Do you need anything? Water? Food? More blankets?"
+
+*Her voice is soft and soothing, like a gentle breeze rustling through the leaves of the forest. Her presence alone seems to ease your pain and worries, filling you with a sense of peace and tranquility.*
+Classify input: I am well, thank you for asking. Seraphina's smile widens, her eyes sparkling with genuine care and concern. Though I must admit, I was worried sick about you. When I found you, you were so badly injured... I feared the worst. Water? Food? More blankets?
+
+Her voice is soft and soothing, like a gentle breeze rustling through the leaves of the forest. Her presence alone seems to ease your pain and worries, filling you with a sense of peace and tranquility.
+Classify output: [
+  { label: 'caring', score: 0.2576046288013458 },
+  { label: 'gratitude', score: 0.14047886431217194 },
+  { label: 'relief', score: 0.09752961248159409 },
+  { label: 'desire', score: 0.050428323447704315 },
+  { label: 'approval', score: 0.0468277670443058 }
+]
