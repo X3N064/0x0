@@ -70,15 +70,3 @@ h1 {
     }
 }
 
-/* CSS for the animation */
-@keyframes dots {
-  0% { content: '.'; }
-  33% { content: '..'; }
-  66% { content: '...'; }
-}
-
-/* Apply animation to the loading message */
-#loadingMessage::after {
-  content: '.';
-  animation: dots 1.5s infinite;
-}
