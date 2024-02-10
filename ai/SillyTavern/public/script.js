@@ -1,11 +1,6 @@
 const existingPix = document.querySelector('.pix');
 const container = document.querySelector('.container');
 const loginForm = document.querySelector('.login');
-const csrf = require("csurf");
-const csrfprotection = csrf({
-    cookie: true,
-});
-router.use(csrfprotection);
 
 let dx = Math.random() * 5 + 2; // Initial horizontal speed
 let dy = Math.random() * 5 + 2; // Initial vertical speed
