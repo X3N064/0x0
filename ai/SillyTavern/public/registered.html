@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to 0x0!</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="loader">
+            <h1>Successfully Registered!</h1> </br>
+            <h1 id="loadingMessage">please wait a second</h1>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+        </div>
+        <script>
+            // Use setTimeout to delay the redirection
+            setTimeout(function () {
+                // Redirect to login.html after 3 seconds
+                window.location.href = 'login.html';
+            }, 3000); // 3000 milliseconds = 3 seconds
+        </script>
+    </body>
+</html>
