@@ -17,7 +17,7 @@
     <div id="loginForm">
         <form class="login" action="login.php" method="post">
             <h3>Welcome to 0x0!</h3>
-            <input type="text" placeholder="Email" id="username" name="username">
+            <input type="text" placeholder="Email or Username" id="username" name="username">
             <input type="password" placeholder="Password" id="password" name="password">
             <button type="submit">Log In</button>
         </form>
@@ -25,8 +25,10 @@
 
     <div id="registerForm" style="display:none;">
         <form class="login" action="register.php" method="post">
-            <h3>Thank you for Sign up!</h3>
-            <input type="text" placeholder="Email" id="reg_username" name="username">
+            <h3>Thank you for the Support!</h3>
+            <input type="text" placeholder="Name" id="reg_name" name="name">
+            <input type="text" placeholder="Email" id="reg_email" name="email">
+            <input type="text" placeholder="Username" id="reg_username" name="username">
             <input type="password" placeholder="Password" id="reg_password" name="password">
             <input type="password" placeholder="Repeat Password" name="password_confirmation">
             <button type="submit">Register</button>
