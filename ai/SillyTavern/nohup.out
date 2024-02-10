@@ -4864,3 +4864,284 @@ Classify output: [
   'third-party/SillyTavern-Timelines',
   'third-party/SillyTavern-Variable-Viewer'
 ]
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 707ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+SillyTavern 1.11.3 'release' (e575c4f)
+Launching...
+[32mSillyTavern is listening on: http://0.0.0.0:666/[39m
+
+0.0.0.0 means SillyTavern is listening on all network interfaces (Wi-Fi, LAN, localhost). If you want to limit it only to internal localhost (127.0.0.1), change the setting in config.yaml to "listen: false". Check "access.log" file in the SillyTavern directory if you want to inspect incoming connections.
+
+[33mNew connection from 127.0.0.1; User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+[39m
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: 'c9c2bdf',
+      label: 'Fix ESLint'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: 'c9c2bdf',
+      label: 'Fix ESLint'
+    }
+  },
+  current: 'main',
+  detached: false
+} c9c2bdf4cc7565833fadb5a6f0759b6972effd8b
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '800a567',
+      label: 'Add resolution scale increase tips (by @MissKnight) to reduce blurr on big screens.'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '800a567',
+      label: 'Add resolution scale increase tips (by @MissKnight) to reduce blurr on big screens.'
+    }
+  },
+  current: 'main',
+  detached: false
+} 800a5673580018b548c31e2d25e8b41b2f3c1586
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '27812d0',
+      label: 'Add backticks querying'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '27812d0',
+      label: 'Add backticks querying'
+    }
+  },
+  current: 'main',
+  detached: false
+} 27812d0f993a9f56f90ac998a29f35bb00444e58
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '9ba1766',
+      label: 'Add local whisper. Force convert recorded audio to WAV'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '9ba1766',
+      label: 'Add local whisper. Force convert recorded audio to WAV'
+    }
+  },
+  current: 'main',
+  detached: false
+} 9ba1766a70ef25ccf7a6f825d79fefae44b1dbc3
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '46092f3',
+      label: 'Merge pull request #1 from Oninaig/patch-1'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '46092f3',
+      label: 'Merge pull request #1 from Oninaig/patch-1'
+    }
+  },
+  current: 'main',
+  detached: false
+} 46092f37102f6ae448968867575d543d6f0f1e5d
+BranchSummaryResult {
+  all: [
+    'main',
+    'release',
+    'remotes/origin/main',
+    'remotes/origin/release',
+    'remotes/origin/sweep/add-sweep-config'
+  ],
+  branches: {
+    main: {
+      current: false,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '2891a1e',
+      label: 'Yes'
+    },
+    release: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'release',
+      commit: 'e575c4f',
+      label: 'working version'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '2891a1e',
+      label: 'Yes'
+    },
+    'remotes/origin/release': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/release',
+      commit: 'e575c4f',
+      label: 'working version'
+    },
+    'remotes/origin/sweep/add-sweep-config': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/sweep/add-sweep-config',
+      commit: '3063564',
+      label: 'Merge main into sweep/add-sweep-config'
+    }
+  },
+  current: 'release',
+  detached: false
+} e575c4f26315ca8c46185ee9048d33a390069794
+Initializing transformers.js pipeline for task text-classification with model Cohee/distilbert-base-uncased-go-emotions-onnx
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... ername, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠⁠♪ smol Archon's happy noises
+Initializing transformers.js pipeline for task text-classification with model Cohee/distilbert-base-uncased-go-emotions-onnx
+Classify output: [
+  { label: 'excitement', score: 0.14856858551502228 },
+  { label: 'amusement', score: 0.10921955853700638 },
+  { label: 'joy', score: 0.10266902297735214 },
+  { label: 'caring', score: 0.07559885084629059 },
+  { label: 'curiosity', score: 0.0516439788043499 }
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... I was wondering if I should call you The Traveler, or just simply by your username, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)
+Classify output: [
+  { label: 'excitement', score: 0.12411082535982132 },
+  { label: 'amusement', score: 0.11794110387563705 },
+  { label: 'curiosity', score: 0.1016954556107521 },
+  { label: 'caring', score: 0.08141551911830902 },
+  { label: 'confusion', score: 0.06285768747329712 }
+]
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... I was wondering if I should call you The Traveler, or just simply by your username, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)
+Classify output: [
+  { label: 'excitement', score: 0.12411082535982132 },
+  { label: 'amusement', score: 0.11794110387563705 },
+  { label: 'curiosity', score: 0.1016954556107521 },
+  { label: 'caring', score: 0.08141551911830902 },
+  { label: 'confusion', score: 0.06285768747329712 }
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... ername, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠⁠♪ smol Archon's happy noises
+Classify output: [
+  { label: 'excitement', score: 0.14856858551502228 },
+  { label: 'amusement', score: 0.10921955853700638 },
+  { label: 'joy', score: 0.10266902297735214 },
+  { label: 'caring', score: 0.07559885084629059 },
+  { label: 'curiosity', score: 0.0516439788043499 }
+]

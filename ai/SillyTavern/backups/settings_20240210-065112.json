@@ -669,7 +669,7 @@
             "model_settings": {
                 "assets/vrm/model/nahida.vrm": {
                     "scale": "2.56",
-                    "x": "0.07",
+                    "x": "0.06",
                     "y": "0.52",
                     "rx": 0,
                     "ry": 0,
@@ -899,7 +899,7 @@
             "expression": "joy",
             "menuList": [],
             "lastChat": {
-                "character": "Nahida.png",
+                "character": "default_Seraphina.png",
                 "group": null
             },
             "hideTopBar": true,
