@@ -151,7 +151,7 @@
         "movingUIState": {},
         "movingUIPreset": "Default",
         "noShadows": false,
-        "theme": "Discord Style",
+        "theme": "Discord Inspired",
         "gestures": true,
         "auto_swipe": false,
         "auto_swipe_minimum_length": 0,
@@ -899,7 +899,7 @@
             "expression": "joy",
             "menuList": [],
             "lastChat": {
-                "character": "Nahida.png",
+                "character": "default_Seraphina.png",
                 "group": null
             },
             "hideTopBar": true,
