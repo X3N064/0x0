@@ -18,3 +18,99 @@ Launching...
 
 [33mNew connection from 127.0.0.1; User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
 [39m
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 682ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:666
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 666
+}
+
+Node.js v18.19.0
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 680ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:666
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 666
+}
+
+Node.js v18.19.0
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 678ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:666
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 666
+}
+
+Node.js v18.19.0
