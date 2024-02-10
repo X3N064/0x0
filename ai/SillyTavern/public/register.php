@@ -1,43 +1,52 @@
 <?php
-require_once "db.php";
 
-session_start(); // Start or resume a session
-
-// Function to generate CSRF token
-function generate_csrf_token() {
-    return bin2hex(random_bytes(32));
+if ( ! filter_var($_POST["username"], FILTER_VALIDATE_EMAIL)) {
+    die("Valid email is required");
 }
 
-// Function to verify CSRF token
-function verify_csrf_token($token) {
-    return isset($_SESSION['csrf_token']) && hash_equals($_SESSION['csrf_token'], $token);
+if (strlen($_POST["password"]) < 8) {
+    die("Password must be at least 8 characters");
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Verify CSRF token
-    if (!verify_csrf_token($_POST["csrf_token"])) {
-        die("CSRF token verification failed.");
-    }
+if ( ! preg_match("/[a-z]/i", $_POST["password"])) {
+    die("Password must contain at least one letter");
+}
 
-    $username = $_POST["username"];
-    $password = $_POST["password"];
+if ( ! preg_match("/[0-9]/", $_POST["password"])) {
+    die("Password must contain at least one number");
+}
 
-    $sql = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
-    if (mysqli_query($conn, $sql)) {
-        echo "Registration successful.";
+if ($_POST["password"] !== $_POST["password_confirmation"]) {
+    die("Passwords must match");
+}
+
+$password_hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
+
+$mysqli = require __DIR__ . "/db.php";
+
+$sql = "INSERT INTO user (name, email, password_hash)
+        VALUES (?, ?, ?)";
+        
+$stmt = $mysqli->stmt_init();
+
+if ( ! $stmt->prepare($sql)) {
+    die("SQL error: " . $mysqli->error);
+}
+
+$stmt->bind_param("sss",
+                  $_POST["username"],
+                  $password_hash);
+                  
+if ($stmt->execute()) {
+
+    header("Location: registered.html");
+    exit;
+    
+} else {
+    
+    if ($mysqli->errno === 1062) {
+        die("email already taken");
     } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+        die($mysqli->error . " " . $mysqli->errno);
     }
 }
-
-// Generate and store CSRF token in session
-$_SESSION['csrf_token'] = generate_csrf_token();
-?>
-
-<form method="post" action="">
-    <input type="text" name="username" placeholder="Username"><br>
-    <input type="password" name="password" placeholder="Password"><br>
-    <!-- Include CSRF token in the form -->
-    <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-    <button type="submit">Register</button>
-</form>
