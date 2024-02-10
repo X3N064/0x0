@@ -1,21 +1,24 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        // Function to redirect after a delay
-        function redirect() {
-            // Redirect to main.html after 5 seconds
-            setTimeout(function() {
-                window.location.href = "/main.html";
-            }, 5000); // 5000 milliseconds = 5 seconds
-        }
-
-        // Call the redirect function when the page loads
-        window.onload = redirect;
-    </script>
-</head>
-<body>
-    <p>Redirecting to main.html in 5 seconds...</p>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to 0x0!</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="loader">
+            <h1>Loading Awesome!</h1>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+        </div>
+        <script>
+            // Use setTimeout to delay the redirection
+            setTimeout(function () {
+                // Redirect to login.html after 3 seconds
+                window.location.href = 'login.html';
+            }, 3500); // 3000 milliseconds = 3 seconds
+        </script>
+    </body>
 </html>

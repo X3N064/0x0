@@ -649,3 +649,236 @@ Classify output: [
   { label: 'desire', score: 0.06350210309028625 },
   { label: 'realization', score: 0.06055445596575737 }
 ]
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+./start.sh: line 34: 24383 Hangup                  node "$(dirname "$0")/server.js" "$@"
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 782ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+SillyTavern 1.11.3 'main' (3e4eebd)
+Launching...
+[32mSillyTavern is listening on: http://0.0.0.0:666/[39m
+
+0.0.0.0 means SillyTavern is listening on all network interfaces (Wi-Fi, LAN, localhost). If you want to limit it only to internal localhost (127.0.0.1), change the setting in config.yaml to "listen: false". Check "access.log" file in the SillyTavern directory if you want to inspect incoming connections.
+
+[33mNew connection from 127.0.0.1; User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+[39m
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-Randomizer',
+  'third-party/Extension-Speech-Recognition',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines',
+  'third-party/SillyTavern-Variable-Viewer'
+]
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: 'c9c2bdf',
+      label: 'Fix ESLint'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: 'c9c2bdf',
+      label: 'Fix ESLint'
+    }
+  },
+  current: 'main',
+  detached: false
+} c9c2bdf4cc7565833fadb5a6f0759b6972effd8b
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '27812d0',
+      label: 'Add backticks querying'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '27812d0',
+      label: 'Add backticks querying'
+    }
+  },
+  current: 'main',
+  detached: false
+} 27812d0f993a9f56f90ac998a29f35bb00444e58
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '800a567',
+      label: 'Add resolution scale increase tips (by @MissKnight) to reduce blurr on big screens.'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '800a567',
+      label: 'Add resolution scale increase tips (by @MissKnight) to reduce blurr on big screens.'
+    }
+  },
+  current: 'main',
+  detached: false
+} 800a5673580018b548c31e2d25e8b41b2f3c1586
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '46092f3',
+      label: 'Merge pull request #1 from Oninaig/patch-1'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '46092f3',
+      label: 'Merge pull request #1 from Oninaig/patch-1'
+    }
+  },
+  current: 'main',
+  detached: false
+} 46092f37102f6ae448968867575d543d6f0f1e5d
+BranchSummaryResult {
+  all: [ 'main', 'remotes/origin/main' ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '9ba1766',
+      label: 'Add local whisper. Force convert recorded audio to WAV'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '9ba1766',
+      label: 'Add local whisper. Force convert recorded audio to WAV'
+    }
+  },
+  current: 'main',
+  detached: false
+} 9ba1766a70ef25ccf7a6f825d79fefae44b1dbc3
+BranchSummaryResult {
+  all: [
+    'main',
+    'remotes/origin/main',
+    'remotes/origin/sweep/add-sweep-config'
+  ],
+  branches: {
+    main: {
+      current: true,
+      linkedWorkTree: false,
+      name: 'main',
+      commit: '3e4eebd',
+      label: 'added main.html'
+    },
+    'remotes/origin/main': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/main',
+      commit: '3e4eebd',
+      label: 'added main.html'
+    },
+    'remotes/origin/sweep/add-sweep-config': {
+      current: false,
+      linkedWorkTree: false,
+      name: 'remotes/origin/sweep/add-sweep-config',
+      commit: 'dbf3e8b',
+      label: 'Merge main into sweep/add-sweep-config'
+    }
+  },
+  current: 'main',
+  detached: false
+} 3e4eebdb43bb90d1be8b62bae16bce9f986d3480
