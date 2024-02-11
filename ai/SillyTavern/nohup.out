@@ -5145,3 +5145,4 @@ Classify output: [
   { label: 'caring', score: 0.07559885084629059 },
   { label: 'curiosity', score: 0.0516439788043499 }
 ]
+./start.sh: line 34: 44867 Hangup                  node "$(dirname "$0")/server.js" "$@"

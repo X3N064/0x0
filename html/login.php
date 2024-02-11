@@ -1,36 +1,40 @@
 <?php
-$is_invalid = false;
+session_start(); // Start a session
+ob_start(); // Start output buffering
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    
-    $mysqli = require __DIR__ . "/db.php";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Include database connection
+    require_once "db.php";
 
-    // Escape user input to prevent SQL injection
-    $input = $mysqli->real_escape_string($_POST["email_or_username"]);
+    // Define email/username and password from the form
+    $identifier = $_POST['username']; // Assuming the input field is named 'username' in HTML
+    $password = $_POST['password'];
 
-    // Check if the input is a valid email address
-    if (filter_var($input, FILTER_VALIDATE_EMAIL)) {
-        $whereClause = "email = '$input'";
+    // SQL injection prevention
+    $identifier = stripslashes($identifier);
+    $password = stripslashes($password);
+    $identifier = mysqli_real_escape_string($conn, $identifier);
+
+    // Query to retrieve user data based on email/username
+    $query = "SELECT * FROM users WHERE username='$identifier' OR email='$identifier'";
+    $result = mysqli_query($conn, $query);
+    $row = mysqli_fetch_assoc($result);
+
+    // Check if user exists
+    if ($row) {
+        // Verify password
+        if (password_verify($password, $row['password'])) {
+            $_SESSION['username'] = $row['username']; // Set session variable
+            echo "Login successful!";
+            // Redirect to some page after successful login
+            header("Location: http://ai.0x0.kr"); // Change this to the desired location
+            exit;
+        } else {
+            echo "Invalid email/username or password.";
+        }
     } else {
-        $whereClause = "username = '$input'";
+        echo "Invalid email/username or password.";
     }
-    
-    $sql = "SELECT * FROM user WHERE $whereClause";
-    
-    $result = $mysqli->query($sql);
-    
-    $user = $result->fetch_assoc();
-    
-    if ($user && password_verify($_POST["password"], $user["password_hash"])) {
-            
-        session_start();
-        session_regenerate_id();
-        $_SESSION["user_id"] = $user["id"];
-        header("Location: http://ai.0x0.kr");
-        exit;
-    }
-    
-    $is_invalid = true;
 }
-
+ob_end_flush(); // Flush the buffer and send the output to the browser
 ?>
