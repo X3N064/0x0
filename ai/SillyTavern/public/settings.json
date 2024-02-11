@@ -668,9 +668,9 @@
             },
             "model_settings": {
                 "assets/vrm/model/nahida.vrm": {
-                    "scale": "2.56",
-                    "x": "0.07",
-                    "y": "0.52",
+                    "scale": "2.82",
+                    "x": "0.04",
+                    "y": "0.37",
                     "rx": 0,
                     "ry": 0,
                     "animation_default": {
@@ -844,7 +844,8 @@
                         }
                     }
                 }
-            }
+            },
+            "lock_models": false
         },
         "variable_viewer": {
             "isShown": false,
@@ -904,6 +905,19 @@
             },
             "hideTopBar": true,
             "bgList": []
+        },
+        "audio": {
+            "enabled": false,
+            "dynamic_bgm_enabled": false,
+            "bgm_locked": true,
+            "bgm_muted": true,
+            "bgm_volume": 50,
+            "bgm_selected": null,
+            "ambient_locked": true,
+            "ambient_muted": true,
+            "ambient_volume": 50,
+            "ambient_selected": null,
+            "bgm_cooldown": 30
         }
     },
     "tags": [
