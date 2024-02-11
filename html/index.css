@@ -3,7 +3,7 @@ h1 {
     color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: calc(50% - 80px);
-    left: calc(50% - 130px);
+    text-align: center;
 }
 
 .loader {
@@ -70,3 +70,28 @@ h1 {
     }
 }
 
+/* Add the new CSS styles for the h1.char element */
+
+.char {
+    transform: translateY(3px);
+    animation-name: wiggleWiggle;
+    animation-duration: 0.3s;
+    animation-direction: alternate;
+    animation-timing-function: steps(2, end);
+    animation-iteration-count: infinite;
+}
+
+/* transform: translateY(3px); */
+@keyframes wiggleWiggle {
+    20%,
+    100% {
+        transform: translate(0, 3px);
+    }
+
+    0% {
+        transform: translate(0, 0px);
+    }
+    20% {
+        transform: translate(0, 3px);
+    }
+}
