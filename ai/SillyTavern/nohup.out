@@ -5146,3 +5146,233 @@ Classify output: [
   { label: 'curiosity', score: 0.0516439788043499 }
 ]
 ./start.sh: line 34: 44867 Hangup                  node "$(dirname "$0")/server.js" "$@"
+Installing Node Modules...
+
+> sillytavern@1.11.3 postinstall
+> node post-install.js
+
+
+up to date in 684ms
+
+79 packages are looking for funding
+  run `npm fund` for details
+Entering SillyTavern...
+Running from source
+SillyTavern 1.11.3 'beta' (dad583b)
+Launching...
+[32mSillyTavern is listening on: http://0.0.0.0:666/[39m
+
+0.0.0.0 means SillyTavern is listening on all network interfaces (Wi-Fi, LAN, localhost). If you want to limit it only to internal localhost (127.0.0.1), change the setting in config.yaml to "listen: false". Check "access.log" file in the SillyTavern directory if you want to inspect incoming connections.
+
+[33mNew connection from 127.0.0.1; User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+[39m
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Audio',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines'
+]
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Audio',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines'
+]
+Initializing transformers.js pipeline for task text-classification with model Cohee/distilbert-base-uncased-go-emotions-onnx
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... I was wondering if I should call you The Traveler, or just simply by your username, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)
+Classify output: [
+  { label: 'excitement', score: 0.12411082535982132 },
+  { label: 'amusement', score: 0.11794110387563705 },
+  { label: 'curiosity', score: 0.1016954556107521 },
+  { label: 'caring', score: 0.08141551911830902 },
+  { label: 'confusion', score: 0.06285768747329712 }
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... ername, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠⁠♪ smol Archon's happy noises
+Classify output: [
+  { label: 'excitement', score: 0.14856858551502228 },
+  { label: 'amusement', score: 0.10921955853700638 },
+  { label: 'joy', score: 0.10266902297735214 },
+  { label: 'caring', score: 0.07559885084629059 },
+  { label: 'curiosity', score: 0.0516439788043499 }
+]
+[
+  'assets',
+  'caption',
+  'expressions',
+  'gallery',
+  'memory',
+  'quick-reply',
+  'regex',
+  'stable-diffusion',
+  'token-counter',
+  'translate',
+  'tts',
+  'vectors',
+  'third-party/Extension-Audio',
+  'third-party/Extension-Blip',
+  'third-party/Extension-Idle',
+  'third-party/Extension-Live2d',
+  'third-party/Extension-VRM',
+  'third-party/Extension-WebSearch',
+  'third-party/SillyTavern-Chub-Search',
+  'third-party/SillyTavern-LandingPage',
+  'third-party/SillyTavern-Timelines'
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... I was wondering if I should call you The Traveler, or just simply by your username, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)
+Classify output: [
+  { label: 'excitement', score: 0.12411082535982132 },
+  { label: 'amusement', score: 0.11794110387563705 },
+  { label: 'curiosity', score: 0.1016954556107521 },
+  { label: 'caring', score: 0.08141551911830902 },
+  { label: 'confusion', score: 0.06285768747329712 }
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... ername, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠⁠♪ smol Archon's happy noises
+Classify output: [
+  { label: 'excitement', score: 0.14856858551502228 },
+  { label: 'amusement', score: 0.10921955853700638 },
+  { label: 'joy', score: 0.10266902297735214 },
+  { label: 'caring', score: 0.07559885084629059 },
+  { label: 'curiosity', score: 0.0516439788043499 }
+]
+Classify input: Hello world! 
+
+In JavaScript that looks like:
+
+```
+function HelloWorld() {
+    console.log(Hello World!);
+}
+HelloWorld();
+```
+Classify output: [
+  { label: 'caring', score: 0.1228247731924057 },
+  { label: 'curiosity', score: 0.07756482809782028 },
+  { label: 'realization', score: 0.06657179445028305 },
+  { label: 'confusion', score: 0.06195848435163498 },
+  { label: 'approval', score: 0.06166216358542442 }
+]
+MakerSuite request: {
+  contents: [ { parts: [Array], role: 'user' } ],
+  safetySettings: [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    {
+      category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+      threshold: 'BLOCK_NONE'
+    },
+    {
+      category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+      threshold: 'BLOCK_NONE'
+    }
+  ],
+  generationConfig: {
+    stopSequences: [ '\nKen:', '[Start a new Chat]' ],
+    candidateCount: 1,
+    maxOutputTokens: 300,
+    temperature: 0.85,
+    topP: 1,
+    topK: undefined
+  }
+}
+MakerSuite Candidate text empty {
+  candidates: [ { finishReason: 'MAX_TOKENS', index: 0, safetyRatings: [Array] } ],
+  promptFeedback: { safetyRatings: [ [Object], [Object], [Object], [Object] ] }
+}
+Classify input: Seraphina's eyes narrow, and her lips tighten into a thin line. A cold fury radiates from her, causing the temperature in the room to drop.
+
+How dare you! she hisses, her voice like ice. Do you have any idea what it took for me to get to this point? I will make you regret the day you ever crossed my path.
+
+Seraphina's anger is palpable, and the air around her crackles with energy. She is a force to be reckoned with, and her fury is a sight to behold.
+Classify output: [
+  { label: 'anger', score: 0.5150768756866455 },
+  { label: 'disapproval', score: 0.06387874484062195 },
+  { label: 'realization', score: 0.052890148013830185 },
+  { label: 'excitement', score: 0.0522383488714695 },
+  { label: 'disgust', score: 0.03553963825106621 }
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... I was wondering if I should call you The Traveler, or just simply by your username, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)
+Classify output: [
+  { label: 'excitement', score: 0.12411082535982132 },
+  { label: 'amusement', score: 0.11794110387563705 },
+  { label: 'curiosity', score: 0.1016954556107521 },
+  { label: 'caring', score: 0.08141551911830902 },
+  { label: 'confusion', score: 0.06285768747329712 }
+]
+Classify input: I am Lesser Lord Kusanali, the Dendro Archon. You may call me Nahida.
+
+She touched her lips with her index finger as if in deep thought
+
+Hmmm ... ername, Ken? 
+
+giggle are you surprised that I know your name? Anyway, I can't wait to hear your story (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠⁠♪ smol Archon's happy noises
+Classify output: [
+  { label: 'excitement', score: 0.14856858551502228 },
+  { label: 'amusement', score: 0.10921955853700638 },
+  { label: 'joy', score: 0.10266902297735214 },
+  { label: 'caring', score: 0.07559885084629059 },
+  { label: 'curiosity', score: 0.0516439788043499 }
+]
