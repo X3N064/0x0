@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@x@</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Add Google Sign-In Script -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img src="pix.png" alt="Cute Pix" class="pix">
+    </div>
+    <div class="collision-box"></div>
+
+    <div id="verifyForm">            
+        <h3>Verify Your Account to Proceed!</h3>
+        <form class="login" action="verify.php" method="post">
+            <input type="text" name="verification_code" placeholder="Verification Code">
+            <button type="submit" >Verify</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
