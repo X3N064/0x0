@@ -7,7 +7,6 @@ require 'PHPMailer.php';
 require 'SMTP.php';
 
 session_start();
-require_once "send_verification_email.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect user information
