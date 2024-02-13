@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>@x@</title>
     <link rel="stylesheet" href="login.css">
     <!-- Add Google Sign-In Script -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -24,17 +24,17 @@
     </div>
 
     <div id="registerForm" style="display:none;">
-        <form class="login" action="register.php" method="post">
-            <h3>Thank you for the Support!</h3>
-            <input type="text" placeholder="Full Name" id="reg_name" name="name">
-            <input type="text" placeholder="Email" id="reg_email" name="email">
-            <input type="text" placeholder="Username" id="reg_username" name="username">
-            <input type="password" placeholder="Password" id="reg_password" name="password">
-            <input type="password" placeholder="Repeat Password" name="password_confirmation">
-            <button type="submit">Register</button>
-        </form>
+    <form class="login" action="register.php" method="post" onsubmit="return validateForm()">
+        <h3>Thank you for the Support!</h3>
+        <input type="text" placeholder="Name" id="reg_name" name="name" required>
+        <input type="email" placeholder="Email" id="reg_email" name="email" required>
+        <input type="text" placeholder="Username" id="reg_username" name="username" required>
+        <input type="password" placeholder="Password" id="reg_password" name="password" required>
+        <input type="password" placeholder="Repeat Password" name="password_confirmation" required>
+        <button type="submit">Register</button>
+    </form>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
