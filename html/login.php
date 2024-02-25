@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $row['username']; // Set session variable
             echo "Login successful!";
             // Redirect to some page after successful login
-            header("Location: http://ai.0x0.kr"); // Change this to the desired location
+            include '/home/x3n064/0x0/html/checkEdge.php'; // Change this to the desired location
             exit;
         } else {
             echo "Invalid email/username or password.";
