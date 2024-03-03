@@ -29,7 +29,7 @@
         "sanitize-filename": "^1.6.3",
         "sillytavern-transformers": "^2.14.6",
         "simple-git": "^3.19.1",
-        "vectra": "^0.2.2",
+        "vectra": "^0.5.5",
         "wavefile": "^11.0.0",
         "write-file-atomic": "^5.0.1",
         "ws": "^8.13.0",
